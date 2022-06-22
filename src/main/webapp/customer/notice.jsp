@@ -25,7 +25,7 @@ function clearVal() {
 </script>
 
 <!-- 세션을 이용한 조건문 -->
-<c:if test="${empty sessionScope.uid }"> <!-- uid가 비어있을때(없으면) true ->login상 / login이 나와야함 -->
+<c:if test="${empty sessionScope.uid }"> <!-- uid가 비어있을때(없으면) true ->login상태 / login이 나와야함 -->
 	<a href="../login/login.do">login</a> | 
 	<a href="#">join</a> 
 </c:if>

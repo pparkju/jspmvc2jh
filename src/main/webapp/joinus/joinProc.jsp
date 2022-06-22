@@ -79,11 +79,11 @@
 %>
 
 
-id : <%=id %> <br />
-gender : <%=gender %> <br />
-birth : <%=birth %> <br />
-email : <%=email %> <br />
-habit : <%=habit %> <br />
+아이디 : <%=id %> <br />
+성별 : <%=gender %> <br />
+생일 : <%=birth %> <br />
+메일 : <%=email %> <br />
+취미 : <%=habit %> <br />
 
 <!DOCTYPE html>
 <html>
